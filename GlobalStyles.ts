@@ -1,6 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
+
+
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -102,9 +105,11 @@ p, h1, h2, h3, h4, h5, h6 {
 /*Font Family */
 
 body {
-  background-color: var(--color-gray-100);
-  font-family: 'Crimson Pro', sans-serif;
+  
+  font-family:   -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+
 
 /*
   Remove default button styles. We'll provide our own at the
@@ -121,6 +126,10 @@ button {
   font: inherit;
   color: inherit;
 }
+
+/*
+  Remove the default blue color of a tag
+*/
 
 a {
   color: inherit;
