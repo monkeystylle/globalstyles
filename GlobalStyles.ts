@@ -135,8 +135,6 @@ a {
   color: inherit;
   text-decoration: none;
 }
-`;
-
 
 /* remove animations for people who've turned them off */
 @media (prefers-reduced-motion: reduce) {  
@@ -149,5 +147,11 @@ a {
     scroll-behavior: auto !important;
   }
 }
+
+
+`;
+
+
+
 
 export default GlobalStyles;
